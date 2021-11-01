@@ -28,7 +28,7 @@ csvFileOutputResult.csv
 with contents:
 
 filename,boolean
-csvFile.csv, TRUE
+csvFile.csv,TRUE
 ```
 
 
