@@ -23,7 +23,7 @@ Checks for condiitions required for a proper .csv file.
 
 .csv file is written to same directory that the module is run from, with file name of {filename}OutputResult.csv
 
-##Example output after running CSVChecker on a valid .csv file named csvFile.csv:
+### Example output after running CSVChecker on a valid .csv file named csvFile.csv:
 ```
 csvFileOutputResult.csv
 
