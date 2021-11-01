@@ -22,6 +22,7 @@ Checks for condiitions required for a proper .csv file.
 -If all conditions are met, returns a .csv file with file name and boolean value True.
 
 .csv file is written to same directory that the module is run from, with file name of {filename}OutputResult.csv
+
 ##Example output after running CSVChecker on a valid .csv file named csvFile.csv:
 ```
 csvFileOutputResult.csv
