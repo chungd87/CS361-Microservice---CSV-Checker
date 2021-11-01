@@ -5,7 +5,7 @@
 
 python3 -m CSVChecker filename
 
-	-Example:
+-Example:
 	python3 -m CSVChecker data.csv
 
 
