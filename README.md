@@ -1,16 +1,16 @@
 # CS361 Microservice - CSV Checker
  CSV Checker
 
-General Usage:
+## General Usage:
 
-python3 -m CSVChecker filename
+`python3 -m CSVChecker filename`
 
 	-Example:
-	python3 -m CSVChecker data.csv
+	`python3 -m CSVChecker data.csv`
 
 
 
-Description:
+## Description:
 
 Takes a file as a parameter.
 
@@ -24,7 +24,7 @@ Checks for condiitions required for a proper .csv file.
 
 
 
-Conditions:
+## Conditions:
 
 Checks for .csv file extension.
 
@@ -38,7 +38,7 @@ Note that an empty .csv file is considered valid.
 
 
 
-Examples:
+## Examples:
 	Valid CSV file:
 	column1,column2,column3
 	1,2,3
