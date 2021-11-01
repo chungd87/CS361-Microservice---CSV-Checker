@@ -6,8 +6,9 @@
 python3 -m CSVChecker filename
 
 -Example:
+```bash
 	python3 -m CSVChecker data.csv
-
+```
 
 
 ## Description:
