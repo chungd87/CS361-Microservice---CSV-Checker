@@ -8,11 +8,17 @@ python3 -m CSVChecker filename
 	python3 -m CSVChecker data.csv
 
 Description:
+
 Takes a file as a parameter.
+
 Checks for condiitions required for a proper .csv file.
+
     -If any condition is not met, returns a .csv file with file name and boolean value False.
+
     -If all conditions are met, returns a .csv file with file name and boolean value True.
+
 .csv file is written to same directory that the module is run from, with file name of {filename}OutputResult.csv
+
 
 Conditions:
 -Checks for .csv file extension.
@@ -22,3 +28,27 @@ Conditions:
  number of columns.
 -Note that an empty .csv file is considered valid.
 
+
+Examples:
+	Valid CSV file:
+	column1,column2,column3
+	1,2,3
+	4,5,
+
+
+	Invalid CSV file (number of columns do not match for header and rows):
+	column1,column2,column3
+	1,2,3,
+	4,5
+
+
+	Invalid CSV file (bad delimiter which CSV.Sniffer will not pick up on):
+	column1.column2.column3
+	1.2.3
+	4.5.6
+
+
+	Valid CSV file (commonly used delimiter):
+	column1;column2;column3
+	1;2;3
+	4;5;6
